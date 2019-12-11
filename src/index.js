@@ -32,7 +32,7 @@ class App extends React.Component {
         document.body.style.color ="inherit";
         document.body.style.backgroundColor = 'inherit';
 
-        const {destination, source, draggableId, type} = result;
+        const {destination, source, draggableId} = result;
 
         if (!destination){
             return;
